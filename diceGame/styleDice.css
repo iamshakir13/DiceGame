@@ -1,0 +1,104 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+.centerButton{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+}
+#refreshbutton{
+    display:  flex;
+    text-align: center;
+    justify-content: center;
+      appearance: none;
+      background-color: #FFFFFF;
+      border-radius: 40em;
+      border-style: none;
+      box-shadow: #ADCFFF 0 -12px 6px inset;
+      box-sizing: border-box;
+      color: #000000;
+      cursor: pointer;
+      display: inline-block;
+      font-family: -apple-system,sans-serif;
+      font-size: 1.2rem;
+      font-weight: 700;
+      letter-spacing: -.24px;
+      margin: 0;
+      outline: none;
+      padding: 1rem 1.3rem;
+      quotes: auto;
+      text-align: center;
+      text-decoration: none;
+      transition: all .15s;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+    }
+    
+    .button-73:hover {
+      background-color: #FFC229;
+      box-shadow: #FF6314 0 -6px 8px inset;
+      transform: scale(1.125);
+    }
+    
+    .button-73:active {
+      transform: scale(1.025);
+    }
+    
+    @media (min-width: 768px) {
+      .button-73 {
+        font-size: 1.5rem;
+        padding: .75rem 2rem;
+      }
+    }
+  
+}
+h1{
+    font-family: "Caveat", cursive;
+font-optical-sizing: auto;
+font-weight: 800;
+font-size: 5rem;
+text-align: center;
+font-style: normal;
+    color:yellow;
+     
+}
+.winner{
+    text-align: center;
+font-style: normal;
+    font-size: 50px;
+    color: rgb(0, 55, 255);
+}
+h2{
+    font-family: "BioRhyme Expanded", serif;
+    font-weight: 800;
+    font-style: normal; 
+    color: aqua;
+    text-align: center;
+}
+.wrapper{
+
+    text-align: center;
+    display: block;
+}
+.images{
+ 
+    margin-top: 200px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
+.firstBoxImage{
+    border: 10px solid yellow;
+    border-radius: 50px;
+    height: 200px;
+    width: 200px;
+}
+.secondBoxImage{
+    border: 10px solid yellow;
+    border-radius: 50px;
+    height: 200px;
+    width: 200px;
+}
